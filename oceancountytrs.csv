@@ -1,0 +1,63 @@
+32,2,A,DISASTER,Disaster Common,Interop,SharedCommon
+64,4,A,PS COMMON,Public Safety Common,Interop,SharedCommon
+96,6,A,DPW Common,Public Works Common,Public Works,Ocean County Services
+128,8,A,PD Interop,Police Interoperability,Interop,Ocean County Police
+160,00a,A,OEM 1,Office of Emergency Management 1,Emergency Ops,Ocean County Emergency Management
+192,00c,A,OEM 2,Office of Emergency Management 2,Emergency Ops,Ocean County Emergency Management
+288,12,A,PDN Disp,Police North Dispatch  Bay Head Mantoloking,Law Dispatch,Ocean County Police
+320,14,A,PDS Disp,Police South Dispatch Beachwood Ocean Gate Pine Beach South Toms River,Law Dispatch,Ocean County Police
+352,16,A,PDN Mob,Police North CartoCar,Law Talk,Ocean County Police
+384,18,A,PDS Mob,Police South CartoCar,Law Talk,Ocean County Police
+416,01a,A,PD Tac 1,Tactical 1,Law Tac,Ocean County Police
+448,01c,A,PD Tac 2,Tactical 2,Law Tac,Ocean County Police
+512,20,A,PDC Disp,Police Central Dispatch Island Heights and Lakehurst,Law Dispatch,Ocean County Police
+544,22,A,PDW Disp,Police West Dispatch Plumsted,Law Dispatch,Ocean County Police
+800,32,A,OCSD 1,Sheriff 1,Law Dispatch,Ocean County Sheriff
+832,34,A,OCSD 2,Sheriff 2,Law Talk,Ocean County Sheriff
+864,36,A,OCSD 3,Sheriff 3,Law Talk,Ocean County Sheriff
+896,38,A,OCSD 4,Sheriff 4,Law Talk,Ocean County Sheriff
+928,03a,A,MONOCONTROL,MONOC Control formerly CMC Medcom,EMS-Talk,Ocean County FireEMS
+960,03c,A,OCSD RadRep,Sheriff Radio Repair,Public Works,Ocean County Sheriff
+992,03e,A,OCSD Mobile,Sheriff CartoCar,Law Talk,Ocean County Sheriff
+1312,52,A,OCP 1,Prosecutor 1,Law Tac,Ocean County Prosecutor
+1344,54,A,OCP 2,Prosecutor 2,Law Tac,Ocean County Prosecutor
+1376,56,A,OCP 3,Prosecutor 3,Law Tac,Ocean County Prosecutor
+1408,58,A,OCP Mobile,Prosecutor Task Force,Law Tac,Ocean County Prosecutor
+1824,72,A,OC DOC,Corrections,Corrections,Ocean County Corrections
+2336,92,A,SEC,Security County Parks and Buildings,Security,Ocean County Services
+2368,94,A,SEC Spvrs,Security Supervisors,Security,Ocean County Services
+5920,172,A,PD Det 1,Detective 1,Law Tac,Ocean County Police
+5952,174,A,PD Det 2,Detective 2,Law Tac,Ocean County Police
+9504,252,A,RDN,Roads North,Public Works,Ocean County Services
+9536,254,A,RDPD,Roads Paving Division,Public Works,Ocean County Services
+9568,256,A,RDS,Roads South,Public Works,Ocean County Services
+9600,258,A,Roads Admin,Roads StaffAdministration,Public Works,Ocean County Services
+10016,272,A,Bridges,Bridges,Public Works,Ocean County Services
+10528,292,A,ENG,Engineering Department,Public Works,Ocean County Services
+10560,294,A,ENS Spvrs,Engineering Supervisors,Public Works,Ocean County Services
+10624,298,A,Mail Srvc,Mail Service,Public Works,Ocean County Services
+12576,312,A,PK,Parks,Public Works,Ocean County Services
+12608,314,A,PK Admin,Parks Administration,Public Works,Ocean County Services
+13088,332,A,SWM,Solid Waste Management,Public Works,Ocean County Services
+13344,342,A,Admin,Administration,Public Works,Ocean County Services
+13600,352,A,OceanRide,Ocean Ride,Transportation,Ocean County Transit
+14112,372,A,BG 1,Building and Grounds 1,Public Works,Ocean County Services
+14144,374,A,Sprinklers,Sprinklers,Data,Ocean County Services
+16672,412,A,VS 1,Vehicle Services 1,Public Works,Ocean County Services
+16704,414,A,VS 2,Vehicle Services 2,Public Works,Ocean County Services
+20512,502,A,FIRE ZN 1,Fire Zone 1 North Central,Fire-Talk,Ocean County FireEMS
+20544,504,A,FIRE ZN 2,Fire Zone 2 South,Fire-Talk,Ocean County FireEMS
+20576,506,A,FIRE ZN 3,Fire Zone 3 Barrier Island North,Fire-Talk,Ocean County FireEMS
+20608,508,A,FIRE ZN 4,Fire Zone 4 West,Fire-Talk,Ocean County FireEMS
+20640,50a,A,FIRE ZN 5,Fire Zone 5 South Central,Fire-Talk,Ocean County FireEMS
+20672,50c,A,FTAC 1,Fire Tactical 1,Fire-Tac,Ocean County FireEMS
+20704,50e,A,FTAC 2,Fire Tactical 2,Fire-Tac,Ocean County FireEMS
+20736,510,A,FTAC 3,Fire Tactical 3 Station 85 Operations,Fire-Tac,Ocean County FireEMS
+20768,512,A,Fire Coord,Fire Coordinators,Fire-Tac,Ocean County FireEMS
+20800,514,A,Fire Marshal,Fire Marshal,Fire-Talk,Ocean County FireEMS
+24608,602,A,EMS ZN 1,EMS Zone 1,EMS-Talk,Ocean County FireEMS
+24640,604,A,EMS ZN 2,EMS Zone 2,EMS-Talk,Ocean County FireEMS
+24672,606,A,EMS ZN 3,EMS Zone 3,EMS-Talk,Ocean County FireEMS
+24704,608,A,EMS ZN 4,EMS Zone 4,EMS-Talk,Ocean County FireEMS
+24736,60a,A,EMS Ops,EMS Operations,EMS-Tac,Ocean County FireEMS
+24768,60c,A,EMS Coord,EMS Coordinators,EMS-Tac,Ocean County FireEMS

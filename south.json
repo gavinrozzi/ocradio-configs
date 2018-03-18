@@ -1,0 +1,33 @@
+
+{
+        "sources": [{
+                "center": 460900000.0,
+                "rate": 1800000,
+                "error": 0,
+                "ppm": 53,
+                "gain": 25,
+                "analogRecorders": 1,
+                "digitalRecorders": 0,
+	        "analogLevels": 8,
+                "squelch": -60,
+                "driver": "osmosdr",
+                "lnaGain": 49,
+                "fskGain": 32,
+		"device": "rtl=0"
+        }],
+        "systems": [
+                {
+                    "type": "conventional",
+                    "channels": [460400000, 460450000, 460475000],
+                    "shortName": "simplex",
+                    "talkgroupsFile": "oc-south-simplex.csv",
+                    "callLog": true,
+                    "audioArchive": true,
+		    "uploadScript": "encode-upload.sh"
+}
+],
+"captureDir": "/home/pi/audio",
+"defaultMode": "analog",
+"callTimeout": 3,
+"logFile": "true"
+}

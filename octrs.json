@@ -1,0 +1,38 @@
+
+{
+        "sources": [{
+                "center": 507600000.0,
+                "rate": 2400000,
+                "error": 0,
+                "ppm": 54.88,
+                "gain": 25,
+                "analogRecorders": 3,
+                "digitalRecorders": 0,
+                "analogLevels": 8,
+                "squelch": -60,
+                "driver": "osmosdr",
+                "lnaGain": 49,
+                "fskGain": 32,
+                "device": "rtl=0"
+        }],
+        "systems": [{
+                "control_channels": [508437500.0],
+                "type": "smartnet",
+                "shortName": "octrs",
+                "defaultMode": "analog",
+                "talkgroupDisplayFormat": "tag_id",
+                "talkgroupsFile": "oceancountytrs.csv",
+                "bandplan": "400_custom",
+                "bandplanBase": 505000000.0,
+                "bandplanHigh": 509000000.0,
+                "bandplanSpacing":12500,
+                "bandplanOffset": "380",
+                "uploadScript": "encode-upload.sh"
+}
+],
+"captureDir": "/home/pi/audio",
+"defaultMode": "analog",
+"callTimeout": 3,
+"logFile": "true"
+}
+
