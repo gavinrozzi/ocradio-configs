@@ -1,0 +1,45 @@
+
+{
+        "sources": [{
+                "center": 770200000.0,
+                "rate": 2400000,
+                "error": 0,
+                "ppm": 54.88,
+                "gain": 25,
+                "analogRecorders": 0,
+                "digitalRecorders": 2,
+                "squelch": -60,
+                "driver": "osmosdr",
+                "lnaGain": 49,
+                "fskGain": 32,
+                "device": "rtl=0"
+        }, {
+                "center": 773883000.0,
+                "rate": 2400000,
+                "error": 0,
+                "ppm": 53,
+                "gain": 25,
+                "analogRecorders": 0,
+                "digitalRecorders": 2,
+                "squelch": -60,
+                "driver": "osmosdr",
+                "lnaGain": 49,
+                "fskGain": 32,
+                "device": "rtl=1"
+
+        }],
+        "systems": [{
+                "control_channels": [770943750.0],
+                "type": "p25",
+                "shortName": "njics",
+                "defaultMode": "digital",
+                "talkgroupDisplayFormat": "tag_id",
+                "talkgroupsFile": "njics.csv"
+                "uploadScript": "encode-upload.sh"
+}
+],
+"captureDir": "/home/pi/audio",
+"defaultMode": "analog",
+"callTimeout": 3,
+"logFile": "true"
+}
