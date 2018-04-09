@@ -1,14 +1,13 @@
-
 {
         "sources": [{
                 "center": 507600000.0,
                 "rate": 2400000,
                 "error": 0,
-                "ppm": 54.88,
+                "ppm": 0,
                 "gain": 25,
-                "analogRecorders": 3,
-                "digitalRecorders": 0,
-                "analogLevels": 8,
+                "analogRecorders": 4,
+                "digitalRecorders": 1,
+                "analogLevels": 10,
                 "squelch": -60,
                 "driver": "osmosdr",
                 "lnaGain": 49,
@@ -30,7 +29,7 @@
                 "uploadScript": "encode-upload.sh"
 }
 ],
-"captureDir": "/home/pi/audio",
+"captureDir": "/home/gavin/audio",
 "defaultMode": "analog",
 "callTimeout": 3,
 "logFile": "true"
