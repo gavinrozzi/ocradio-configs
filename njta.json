@@ -1,9 +1,9 @@
 {
         "sources": [{
-                "center": 770200000.0,
+                "center": 855500000.0,
                 "rate": 2400000,
                 "error": 0,
-                "ppm": 54.88,
+                "ppm": 54,
                 "gain": 25,
                 "analogRecorders": 0,
                 "digitalRecorders": 2,
@@ -12,23 +12,10 @@
                 "lnaGain": 49,
                 "fskGain": 32,
                 "device": "rtl=0"
-        }, {
-                "center": 773883000.0,
-                "rate": 2400000,
-                "error": 0,
-                "ppm": 53,
-                "gain": 25,
-                "analogRecorders": 0,
-                "digitalRecorders": 2,
-                "squelch": -60,
-                "driver": "osmosdr",
-                "lnaGain": 49,
-                "fskGain": 32,
-                "device": "rtl=1"
 
         }],
         "systems": [{
-                "control_channels": [856087500.0],
+                "control_channels": [856087500.0, 856056250.0],
                 "type": "p25",
                 "shortName": "njta",
                 "defaultMode": "digital",
