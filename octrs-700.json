@@ -26,6 +26,7 @@
             "fskGain": 32,
             "device": "rtl=1"
 
+        }],
         "systems": [{
                 "control_channels": [774881250.0, 774156250.0, 774731250.0, 772756250.0],
                 "type": "p25",
