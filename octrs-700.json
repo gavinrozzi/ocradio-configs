@@ -1,0 +1,42 @@
+{
+    "sources": [{
+            "center": 770200000.0,
+            "rate": 2400000,
+            "error": 0,
+            "ppm": 54.88,
+            "gain": 25,
+            "analogRecorders": 0,
+            "digitalRecorders": 2,
+            "squelch": -60,
+            "driver": "osmosdr",
+            "lnaGain": 49,
+            "fskGain": 32,
+            "device": "rtl=0"
+    }, {
+            "center": 773883000.0,
+            "rate": 2400000,
+            "error": 0,
+            "ppm": 53,
+            "gain": 25,
+            "analogRecorders": 0,
+            "digitalRecorders": 2,
+            "squelch": -60,
+            "driver": "osmosdr",
+            "lnaGain": 49,
+            "fskGain": 32,
+            "device": "rtl=1"
+
+        "systems": [{
+                "control_channels": [774881250.0, 774156250.0, 774731250.0, 772756250.0],
+                "type": "p25",
+                "shortName": "octrs-700",
+                "defaultMode": "digital",
+                "talkgroupDisplayFormat": "tag_id",
+                "uploadScript": "encode-upload.sh"
+}
+],
+"captureDir": "/home/radio/audio",
+"defaultMode": "digital",
+"callTimeout": 3,
+"logFile": "true"
+}
