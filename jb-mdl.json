@@ -1,0 +1,30 @@
+{
+        "sources": [{
+                "center": 385000000.0,
+                "rate": 2400000,
+                "error": 0,
+                "ppm": 54,
+                "gain": 25,
+                "analogRecorders": 0,
+                "digitalRecorders": 3,
+                "squelch": -60,
+                "driver": "osmosdr",
+                "lnaGain": 49,
+                "fskGain": 32,
+                "device": "rtl=0"
+
+        }],
+        "systems": [{
+                "control_channels": [385262500.0, 385800000.0, 386125000.0, 386287500.0],
+                "type": "p25",
+                "shortName": "njta",
+                "defaultMode": "digital",
+                "talkgroupDisplayFormat": "tag_id",
+                "uploadScript": "encode-upload.sh"
+}
+],
+"captureDir": "/home/radio/audio",
+"defaultMode": "digital",
+"callTimeout": 3,
+"logFile": "true"
+}
