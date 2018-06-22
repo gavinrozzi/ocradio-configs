@@ -34,7 +34,7 @@
                 "shortName": "njics",
                 "defaultMode": "digital",
                 "talkgroupDisplayFormat": "tag_id",
-                "talkgroupsFile": "njics.csv"
+                "talkgroupsFile": "njics.csv",
                 "uploadScript": "encode-upload.sh"
 }
 ],
