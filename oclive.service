@@ -1,0 +1,13 @@
+[Unit]
+Description=OC Radio Live backend service
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=ocsn2
+ExecStart=/home/ocsn2/trunk-build ./recorder --config=dave-desktop-conventional.json
+
+[Install]
+WantedBy=multi-user.target
