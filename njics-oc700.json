@@ -4,7 +4,7 @@
                 "center": 770200000.0,
                 "rate": 2400000,
                 "error": 0,
-                "ppm": 54.88,
+                "ppm": 76,
                 "gain": 25,
                 "analogRecorders": 0,
                 "digitalRecorders": 2,
@@ -17,7 +17,7 @@
                 "center": 773883000.0,
                 "rate": 2400000,
                 "error": 0,
-                "ppm": 53,
+                "ppm": 0,
                 "gain": 25,
                 "analogRecorders": 0,
                 "digitalRecorders": 2,
@@ -35,6 +35,13 @@
                 "defaultMode": "digital",
                 "talkgroupDisplayFormat": "tag_id",
                 "talkgroupsFile": "njics.csv",
+                "uploadScript": "encode-upload.sh"
+                }, {
+                "control_channels": [774881250.0, 774156250.0, 774731250.0, 772756250.0],
+                "type": "p25",
+                "shortName": "octrs-700",
+                "defaultMode": "digital",
+                "talkgroupDisplayFormat": "tag_id",
                 "uploadScript": "encode-upload.sh"
 }
 ],
