@@ -11,7 +11,7 @@
                 "squelch": -60,
                 "driver": "osmosdr",
                 "lnaGain": 49,
-                "fskGain": 32,
+                "fskGain": 1.20,
                 "device": "rtl=0"
         }, {
                 "center": 773883000.0,
@@ -24,12 +24,12 @@
                 "squelch": -60,
                 "driver": "osmosdr",
                 "lnaGain": 49,
-                "fskGain": 32,
+                "fskGain": 0.80,
                 "device": "rtl=1"
 
         }],
         "systems": [{
-                "control_channels": [770943750.0],
+                "control_channels": [770943750.0, 773818750.0, 774068750.0, 774343750.0],
                 "type": "p25",
                 "shortName": "njics",
                 "defaultMode": "digital",
@@ -45,8 +45,8 @@
                 "uploadScript": "encode-upload.sh"
 }
 ],
-"captureDir": "/home/pi/audio",
-"defaultMode": "analog",
+"captureDir": "~/audio",
+"defaultMode": "digital",
 "callTimeout": 3,
 "logFile": "true"
 }
