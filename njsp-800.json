@@ -1,0 +1,50 @@
+{
+        "sources": [{
+                "center": 853000000.0,
+                "rate": 2400000,
+                "error": 0,
+                "ppm": 54,
+                "gain": 25,
+                "analogRecorders": 2,
+                "digitalRecorders": 2,
+                "squelch": -60,
+                "driver": "osmosdr",
+                "device": "rtl=0"
+  }, {
+                "center": 856000000.0,
+                "rate": 2400000,
+                "error": 0,
+                "ppm": 0,
+                "gain": 25,
+                "analogRecorders": 4,
+                "digitalRecorders": 0,
+                "squelch": -60,
+                "driver": "osmosdr",
+                "device": "rtl=1"
+  }, {
+                "center": 859500000.0,
+                "rate": 2400000,
+                "error": 0,
+                "ppm": 0,
+                "gain": 25,
+                "analogRecorders": 4,
+                "digitalRecorders": 0,
+                "squelch": -60,
+                "driver": "osmosdr",
+                "device": "rtl=2"
+        }],
+        "systems": [{
+                "control_channels": [860712500.0, 859712500.0, 858712500.0, 857712500.0],
+                "type": "smartnet",
+                "shortName": "njsp-800",
+                "defaultMode": "analog",
+                "bandplan": "800_splinter",
+                "talkgroupDisplayFormat": "tag_id",
+                "uploadScript": "encode-upload.sh"
+}
+],
+"captureDir": "~/audio",
+"defaultMode": "analog",
+"callTimeout": 3,
+"logFile": "true"
+}

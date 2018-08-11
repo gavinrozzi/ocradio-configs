@@ -37,8 +37,8 @@
                 "uploadScript": "encode-upload.sh"
 }
 ],
-"captureDir": "/home/radio/audio",
-"defaultMode": "analog",
+"captureDir": "~/audio",
+"defaultMode": "digital",
 "callTimeout": 3,
 "logFile": "true"
 }
