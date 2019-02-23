@@ -1,0 +1,30 @@
+{
+        "sources": [{
+                "center": 44500000.0,
+                "rate": 2000000,
+                "error": 0,
+                "ppm": 54.8,
+                "gain": 25,
+                "analogRecorders": 1,
+                "digitalRecorders": 3,
+                "analogLevels": 8,
+                "squelch": -60,
+                "driver": "osmosdr",
+                "device": "rtl=0"
+        }],
+        "systems": [{
+                "type": "conventionalP25",
+                "channels": [446500000, 441000000],
+		"shortName": "frdmr",
+                "defaultMode": "digital",
+                "talkgroupsFile": "park-conv.csv",
+		"uploadScript": "encode-upload.sh"
+
+
+}
+],
+"captureDir": "/home/gavin/audio",
+"defaultMode": "digital",
+"callTimeout": 3,
+"logFile": "true"
+}
